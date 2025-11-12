@@ -12,6 +12,7 @@ def division(a, b):
 
 
 class Operaciones:
+
     def __init__(self):
         pass
 
@@ -32,4 +33,4 @@ class Operaciones:
             case "/":
                 valor = float(division(A,B))
 
-        return valor
+        return str(int(valor))
